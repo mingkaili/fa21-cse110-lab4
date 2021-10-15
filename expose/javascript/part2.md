@@ -58,19 +58,24 @@ It will return an array values with: [50, 100, 150]. With the parameters given i
 ```
 
 12. 
-- ```
+- 
+```
 student.name
 ```
-- ```
+- 
+```
 student['Grad Year']
 ```
-- ```
+- 
+```
 student.greeting()
 ```
-- ```
+- 
+```
 student['Favorite Teacher'].name
 ```
-- ```
+- 
+```
 student.courseLoad[0]
 ```
 
