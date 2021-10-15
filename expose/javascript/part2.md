@@ -58,38 +58,55 @@ It will return an array values with: [50, 100, 150]. With the parameters given i
 ```
 
 12. 
-- ```
+- 
+```
 student.name
 ```
-- ```
+- 
+```
 student['Grad Year']
 ```
-- ```
+- 
+```
 student.greeting()
 ```
-- ```
+- 
+```
 student['Favorite Teacher'].name
 ```
-- ```
+- 
+```
 student.courseLoad[0]
 ```
 
 13. 
 A. '32' Since javascript automatically convert 2 to '2'
+
 B. 1 since javascript automatically convert '3' to 3
+
 C. 3 since null is automatically converted to 0
+
 D. '3null' since null is automatically convert ot the string 'null'
+
 E. 4 since true is converted to number 1
+
 F. 0 since javascript converts false and null to 0
+
 G. 3undefined since javascript converts undefined to the string
+
 H. NaN, a string cannot subtract undefined
 
 14. 
 A. True since '2' is converted to 2
+
 B. False, with string comparison, javascript compares the first letter of the string, and if one is bigger, the comparison finishes, and 2 is greater than 1 so it returns false. 
+
 C. True, '2' gets converted to number 2 for comparison
+
 D. False, because === takes type into account. they are different types, so they are different. 
+
 E. False, because true turns into 1 and 1 is not equal to 2. 
+
 F. True, Since Boolean(2) is evaluated to true because Boolean(0) results in false. 
 
 15. 
